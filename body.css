@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  transition: 0.4s;
+}
+:root {
+  --font-family: "Montserrat";
+  --color-bg: rgba(0, 0, 0, 1);
+  --color-dark: rgb(36, 36, 36);
+  --color-white: rgba(255, 255, 255, 1);
+  --color-red: rgb(255, 0, 0);
+  --color-lightGray: rgb(143, 143, 143);
+  --color-whTr: rgba(255, 255, 255, 0.3);
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: var(--color-bg);
+  font-family: var(--font-family);
+  /* background: url(/images/circle\ red\ light.png); */
+}
+a {
+  color: unset;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.canvas__padding {
+  padding: 4% 6% 0;
+}

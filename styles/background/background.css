@@ -1,0 +1,14 @@
+.background > img {
+  position: absolute;
+  width: 100%;
+
+  transform: translateX(-600px) translateY(-200px) scale(1.5);
+  z-index: -100;
+}
+.vector-form {
+  position: absolute;
+  width: 8px;
+  height: 205px;
+  margin-top: 96px;
+  background-color: var(--color-white);
+}
